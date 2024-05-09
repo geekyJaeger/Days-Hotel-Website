@@ -76,8 +76,8 @@ def contact_us():
         email_message = f'''Thank you {name} for reaching out to us! We have received your enquiry and wil get back to you shortly.
         
                 
-        - signed - MGT,
-        Hotel Miariamar SG'''
+        - signed - ,
+        Days Hotel'''
         
         # Check for empty fields
         if not name or not email or not message:
@@ -95,7 +95,7 @@ def contact_us():
             fromx = 'testingweb3phoenix@gmail.com'
             to  = email
             msg = MIMEText(email_message)
-            msg['Subject'] = "Enquiry - Miraiamar Hotel SG"
+            msg['Subject'] = "Enquiry - Days Hotel"
             msg['From'] = fromx
             msg['To'] = to
 
